@@ -1,0 +1,14 @@
+<form>
+  <div class="flex flex-col gap-6">
+    <app-input
+      [label]="'Nivel del árbol'"
+      [name]="'level'"
+      (onChange)="handleChange($event, 'level')"
+    ></app-input>
+    <app-input
+      [label]="'Ancho del árbol'"
+      [name]="'wide'"
+      (onChange)="handleChange($event, 'wide')"
+    ></app-input>
+  </div>
+</form>
